@@ -1,0 +1,10 @@
+config load "C:\Users\Asus\OneDrive\Desktop\FRA271_Lab1_Sensors\Schmitt_trigger\Schmitt_trigger.ioc"
+project toolchain STM32CubeIDE
+
+SetStructure Advanced
+
+project setCustomFWPath "C:\Users\Asus\STM32Cube\Repository\STM32Cube_FW_G4_V1.6.0"
+
+project generate 
+
+exit wait
